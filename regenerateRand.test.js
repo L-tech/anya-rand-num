@@ -8,7 +8,7 @@ test('random number given is within scope', () => {
     expect(randNum).toBeLessThanOrEqual(20);
 });
 
-test('newly generated random number given is between 0 and 100', () => {
+test('newly generated random number given is between 1 and 100', () => {
     expect(regenerateRand(randNum)).toBeGreaterThanOrEqual(1);
     expect(regenerateRand(randNum)).toBeLessThanOrEqual(100);
 });
